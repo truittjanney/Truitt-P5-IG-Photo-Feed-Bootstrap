@@ -15,8 +15,25 @@ img-2 {
     justify-content: center;
 }
 
-.igPost1 {
+.igPost {
+    display: flex;
+    justify-content: center;
+}
+
+.post-header {
+    display: flex;
+}
+
+.post-img {
+    display: flex;
+}
+
+.igPostImage {
     display: flex;
     height: 400px;
     width: 400px;
+}
+
+.post-body {
+    display: flex;
 }
