@@ -20,8 +20,9 @@ img-2 {
 .igPost {
     display: flex;
     flex-direction: column;
-    height: 800px;
+    height: 700px;
     width: 450px;
+    border: 1px solid lightgray;
 }
 
 .post-header {
@@ -43,8 +44,16 @@ img-2 {
     width: 450px;
 }
 
-.post-body {
+.post-body-likes {
     display: flex;
-    height: 200px;
+    height: 50px;
     width: 450px;
+    padding: 15px 0 0 5px;
+}
+
+.post-body-caption {
+    display: flex;
+    height: 150px;
+    width: 450px;
+    padding: 0 0 70px 5px;
 }
